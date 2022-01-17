@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: riscv-config
+Version: 2.12.1
+Summary: RISC-V Configuration Validator
+Home-page: https://github.com/riscv/riscv-config
+Author: InCore Semiconductors Pvt. Ltd.
+Author-email: neelgala@incoresemi.com
+License: BSD-3-Clause
+Description: RISCV-Config
+        ==============
+        
+        RISC-V Configuration Validator 
+        
+        LICENSE: BSD-3 Clause.
+        
+        Latest Documentation of RISCV-Config: `HTML <https://riscv-config.readthedocs.io/>`_
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6.0
