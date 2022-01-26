@@ -101,8 +101,6 @@ class schemaValidator(Validator):
             self._error(field, "D cannot exist without F.")
         if 'Q' in extension_list and not 'D' in extension_list:
             self._error(field, "Q cannot exist without D and F.")
-        if 'Zfh' in extension_list and not 'F' in extension_list:
-            self._error(field, "Zfh cannot exist without F.")
         if 'Zam' in extension_list and not 'A' in extension_list:
             self._error(field, "Zam cannot exist without A.")
         if 'N' in extension_list and not 'U' in extension_list:
@@ -119,6 +117,7 @@ class schemaValidator(Validator):
             self._error(field, "Zkn is a superset of Zkne, Zknd, Zknh, Zkg and Zkb, In presence of Zkn the subsets must be ignored in the ISA string")
         if 'K' in extension_list and ( set(['Zkn','Zkr','Zkne','Zknd','Zknh','Zkg','Zkb']) & set(extension_list) ) :
             self._error(field, "K is a superset of Zkn and Zkr , In presence of K the subsets must be ignored in the ISA string")
+
 #        if 'Z' in value and not self.document['User_Spec_Version'] == "2.3":
 #            self._error(
 #                field, "Z is not supported in the User Spec given version.")

@@ -1,3 +1,0 @@
-[console_scripts]
-riscv-config = riscv_config.main:main
-
